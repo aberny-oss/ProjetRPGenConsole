@@ -29,6 +29,7 @@
     <ClCompile Include="Mage.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Trader.cpp" />
+    <ClCompile Include="Utils.cpp" />
     <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +42,7 @@
     <ClInclude Include="ItemManager.h" />
     <ClInclude Include="Mage.h" />
     <ClInclude Include="Trader.h" />
+    <ClInclude Include="Utils.h" />
     <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

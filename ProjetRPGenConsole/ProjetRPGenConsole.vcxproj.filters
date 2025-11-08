@@ -37,6 +37,12 @@
     <Filter Include="Fichiers d%27en-tête\Art">
       <UniqueIdentifier>{7339fa5d-a4cb-4339-911c-7fa8053feadf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Divers">
+      <UniqueIdentifier>{4f097b8d-6a48-41a3-8780-a68862a94356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Divers">
+      <UniqueIdentifier>{4ee41022-2b17-432b-9bc5-bb7b280c15d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -72,6 +78,9 @@
     <ClCompile Include="ItemManager.cpp">
       <Filter>Fichiers sources\Manager</Filter>
     </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Fichiers sources\Divers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ASCIIART.h">
@@ -103,6 +112,9 @@
     </ClInclude>
     <ClInclude Include="ItemManager.h">
       <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Fichiers d%27en-tête\Divers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
