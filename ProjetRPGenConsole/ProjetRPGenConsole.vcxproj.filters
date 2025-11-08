@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Manager">
+      <UniqueIdentifier>{92118c20-7f5e-49de-aec0-7bff0d38dfa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Character">
+      <UniqueIdentifier>{319e233d-a2a1-459d-a1ba-43e867a9de9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Manager">
+      <UniqueIdentifier>{802ef28c-6082-4a7c-9d82-36541bd1aad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Character">
+      <UniqueIdentifier>{d2f90c76-89e1-4e6d-abdc-b896ee51fef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Launcher">
+      <UniqueIdentifier>{ab6a0509-aac1-4d23-804b-25ff9ebe4bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Launcher">
+      <UniqueIdentifier>{be126410-956a-4b06-ab38-9dc0fb418ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Art">
+      <UniqueIdentifier>{2051b5bf-9d1e-4e1a-b3bc-d1d7e5dd9370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Art">
+      <UniqueIdentifier>{7339fa5d-a4cb-4339-911c-7fa8053feadf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCIIART.cpp">
+      <Filter>Fichiers sources\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>Fichiers sources\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Fichiers sources\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Trader.cpp">
+      <Filter>Fichiers sources\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Fichiers sources\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Fichiers sources\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Fichiers sources\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASCIIART.h">
+      <Filter>Fichiers d%27en-tête\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Trader.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Fichiers d%27en-tête\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Fichiers d%27en-tête\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
